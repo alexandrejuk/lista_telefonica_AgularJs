@@ -1,0 +1,86 @@
+{
+  "contatos": [
+    {
+      "nome": "MARCOS FERREIRA DA SILVA",
+      "telefone": "5544-5555",
+      "operadora": {
+        "nome": "Oi",
+        "codigo": 12,
+        "preco": 1,
+        "categoria": "Celular"
+      },
+      "id": 1
+    },
+    {
+      "nome": "ALAN TEIXEIRA LIMA",
+      "telefone": "55454-5450",
+      "operadora": {
+        "nome": "Vivo",
+        "codigo": 15,
+        "preco": 12,
+        "categoria": "Celular"
+      },
+      "id": 2
+    },
+    {
+      "nome": "ALAN TEIXEIRA LIMA",
+      "telefone": "55454-5450",
+      "operadora": {
+        "nome": "Vivo",
+        "codigo": 15,
+        "preco": 12,
+        "categoria": "Celular"
+      },
+      "id": 3
+    },
+    {
+      "nome": "WELVIS XAVIER PEREIRA",
+      "telefone": "55454-5454",
+      "operadora": {
+        "nome": "Embratel",
+        "codigo": 21,
+        "preco": 1,
+        "categoria": "Fixo"
+      },
+      "id": 4
+    }
+  ],
+  "operadoras": [
+    {
+      "nome": "Oi",
+      "codigo": 12,
+      "preco": 1,
+      "categoria": "Celular"
+    },
+    {
+      "nome": "Vivo",
+      "codigo": 15,
+      "preco": 12,
+      "categoria": "Celular"
+    },
+    {
+      "nome": "Tim",
+      "codigo": 11,
+      "preco": 2,
+      "categoria": "Celular"
+    },
+    {
+      "nome": "Claro",
+      "codigo": 10,
+      "preco": 1,
+      "categoria": "Celular"
+    },
+    {
+      "nome": "GVT",
+      "codigo": 25,
+      "preco": 2.6,
+      "categoria": "Fixo"
+    },
+    {
+      "nome": "Embratel",
+      "codigo": 21,
+      "preco": 1,
+      "categoria": "Fixo"
+    }
+  ]
+}
