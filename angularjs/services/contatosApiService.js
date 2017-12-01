@@ -1,11 +1,11 @@
-angular.module('listaTelefonica').factory('contatosApi', ($http) => {
+angular.module('listaTelefonica').factory('contatosApi', ($http, config) => {
     const _getContatos = () => $http({
         method: 'GET',
-        url: 'http://localhost:3000/contatos'
+        url: `${config.baseUrl}/contatos`
     });
     const _saveContatoApi = (contato) =>  $http({
         method: 'POST',
-        url: 'http://localhost:3000/contatos',
+        url: `${config.baseUrl}/contatos`,
         data: contato
     });
 
