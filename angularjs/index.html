@@ -63,7 +63,7 @@
             O campo telefone deve ter o formato 0000-0000!
         </div>
         <button class="btn btn-primary btn-block" ng-click="addContato(contato)" ng-disabled="contatoForm.$invalid">Adicionar Contato</button>
-        <button class="btn btn-danger btn-block" ng-click="apagarContatos(contatos)" ng-if="">Apagar Contatos</button>
+        <button class="btn btn-danger btn-block" ng-click="apagarContatos(contatos)" ng-if="isContatoSelecionado(contatos)">Apagar Contatos</button>
     </div>
     <div class="text-center">
         Criado por Alexandre Santos
